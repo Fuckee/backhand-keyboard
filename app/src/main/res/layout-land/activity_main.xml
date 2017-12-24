@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hongzilun.opencvtest2.MainActivity">
+
+    <SeekBar
+        android:id="@+id/progress"
+        android:layout_width="93dp"
+        android:layout_height="61dp"
+        android:progressDrawable="@drawable/layer_progress"
+        android:thumb="@drawable/shape_circle"
+        tools:layout_editor_absoluteX="358dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="89dp"
+        android:layout_height="50dp"
+        android:text="Value:0"
+        android:textColor="#16BC5C"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/java_camera_view"
+        android:layout_width="324dp"
+        android:layout_height="303dp"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="70dp" />
+</android.support.constraint.ConstraintLayout>
